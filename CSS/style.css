@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background: #262936;
+    color: white;
+    
+    
+}
+.navbar-nav li a{
+    color: white;
+    transition: all;
+    
+}
+.navbar-nav li a:hover{
+    color: aqua;
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+
+
+.location .input-custom{
+    width: 100%;
+    padding: 15px 30px 15px 15px;
+    background: #1e202b;
+    color: white;
+}
+.location .btn-custom{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.input-group{
+    padding-top: 50px;
+}
+#weather{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-size: cover;
+    height: 75vh;
+}
+.card-weather{
+    position: relative;
+    bottom: 150px;
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+}
+.card-weather h4{
+    
+    background-color: #1e202b;
+}
+#bg-weathers{
+    background-color: #1e202b;
+}
+.card-weather{
+    background-color: #262936;
+}
+
+.end{
+    padding-bottom: 50px;
+    background-color: #262936;
+}
+.end .home-icon{
+width: 50px;
+height: 50px;
+background-color: #1e202b;
+transition: all 1s;
+}
+.end .home-icon:hover{
+background-color: rgb(28, 137, 180);
+}

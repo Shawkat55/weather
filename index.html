@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h6>weather</h6>
+                    <p>tagline goes here</p>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Live camera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="weather" class="">
+      <div class="container">
+        <form class="input-group location">
+            <input type="text" placeholder="Find your location..." class="input-custom" id="inputSearch">
+            <input onclick="getData()" type="button" value="Find" class="btn-custom btn btn-outline-info">
+        </form>
+        
+      </div>
+    </section>
+    <section id="bg-weathers">
+      <div class="container" >
+        <div class="row "id="weatherLive">
+          <div class="item">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="end">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form class="input-group location">
+              <input type="text" placeholder="Enter your email to subscribe..." class="input-custom" >
+              <input  type="button" value="Subscribe" class="btn-custom btn btn-outline-info">
+            </form>
+          </div>
+          <div class="col-md-4 pt-3 fs-4">
+            <div class="d-flex justify-content-center align-items-center">
+              <div
+                class="mx-1 home-icon mt-4 text-decoration-none rounded-circle  d-flex justify-content-center align-items-center  bg-opacity-50">
+                <a href=""><i class="fa-brands fa-facebook-f text-white"></i></a>
+              </div>
+              <div
+                class="mx-1 home-icon mt-4 text-decoration-none rounded-circle  d-flex justify-content-center align-items-center  bg-opacity-50">
+                <a href=""><i class="fa-brands fa-twitter text-white"></i></a>
+              </div>
+              <div
+                class="mx-1 home-icon mt-4 text-decoration-none rounded-circle  d-flex justify-content-center align-items-center  bg-opacity-50">
+                <a href=""><i class="fa-brands fa-linkedin text-white"></i></a>
+              </div>
+              <div
+                class="mx-1 home-icon mt-4 text-decoration-none rounded-circle  d-flex justify-content-center align-items-center  bg-opacity-50">
+                <a href=""><i class="fa-brands fa-behance text-white"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="mt-5 text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
+
+<span class="p-2"><i class="fa-solid fa-umbrella"></i></span><span class="p-2"><i class="fa-solid fa-wind"></i></span><span class="p-2"><i class="fa-regular fa-compass"></i></span>
